@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Jax Tic-Tac-Toe
 
-## Project info
+A modern, responsive Tic-Tac-Toe game built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/e3299b7d-7b83-4ef1-a7c2-6db2439cc0e7
+## Features
 
-## How can I edit this code?
+- Clean, modern UI built with shadcn/ui components
+- Fully responsive design
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Fast development with Vite
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e3299b7d-7b83-4ef1-a7c2-6db2439cc0e7) and start prompting.
+Make sure you have Node.js and npm installed:
+- Node.js (version 16 or higher)
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+```bash
+git clone https://github.com/takib01/jax-tic-tac.git
+cd jax-tic-tac
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technologies Used
 
-## What technologies are used for this project?
+- **React** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Modern UI components
+- **Radix UI** - Accessible component primitives
 
-This project is built with:
+## Building for Production
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To create a production build:
 
-## How can I deploy this project?
+```bash
+npm run build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/e3299b7d-7b83-4ef1-a7c2-6db2439cc0e7) and click on Share -> Publish.
+The built files will be in the `dist` directory, ready to be deployed to any static hosting service.
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+This project can be deployed to various platforms:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Vercel**: Connect your GitHub repository
+- **Netlify**: Deploy from GitHub or upload the `dist` folder
+- **GitHub Pages**: Use the built files from the `dist` directory
+- **Google Cloud Platform**: Upload to Cloud Storage or App Engine
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests and linting
+5. Submit a pull request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
